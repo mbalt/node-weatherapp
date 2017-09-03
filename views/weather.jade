@@ -1,0 +1,12 @@
+extends layout
+    
+block content
+     if weather
+        div(class='weather')
+            h1 Weather for today in #{weather.name}, #{weather.country}
+            h2 #{weather.weather[0].main} 
+            h2 Temperature is #{weather.main.temp}
+            h2 Pressure is #{weather.main.pressure}
+            h2 Humidity is #{weather.main.humidity}
+            h2 Wind speed is #{weather.wind.speed}
+            

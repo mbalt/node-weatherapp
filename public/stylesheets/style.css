@@ -1,0 +1,37 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: url('../pattern.svg');
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1{text-align:center; color:white;}
+h2{text-align:center;}
+
+.container {
+    bottom: 0;
+    height: 150px;
+    left: 0;
+    margin: auto;
+    position: absolute !important;
+    right: 0;
+    top: 0;
+    width: 720px !important;
+}
+
+input {
+    margin: auto;
+    width: 50% !important;
+}
+
+button{
+  width:120px;
+  height:40px;
+  border-radius:5px;
+  margin:auto;
+  display:block;
+  margin-top:10px;
+}
